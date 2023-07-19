@@ -1,7 +1,13 @@
 ## My Aproach 
 ![Alt text](image-1.png)
 
-# Gift List
+# Merkle Tree Gift List  
+
+Your project this week is to build an application which gives out gifts, but only to names on the list. The catch is that on the server you are only allowed to store one 32 byte value in the server memory. This 32 byte value has to be enough for the server to be able to determine who is on the list.
+
+### Hints
+
+Think of the client as the prover here. They are the ones trying to prove to the server that the one name is in the list. Likewise think of the server as the verifier here. They are taking the client's proof and, using minimal information, able to verify that the name sent from the client is actually in the list.
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
 
